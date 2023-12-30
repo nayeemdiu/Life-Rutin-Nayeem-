@@ -1,0 +1,428 @@
+App Resize in flutter:
+
+android/app/build.gradle file
+
+buildTypes {
+    release {
+        minifyEnabled true
+        shrinkResources true
+        proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+    }
+}
+
+android/app/build.gradle file:
+
+splits {
+    abi {
+        enable true
+        reset()
+        include 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+        universalApk false
+    }
+}
+android/app/build.gradle file:
+android {
+    defaultConfig {
+        multiDexEnabled true
+    }
+}
+
+dependencies:
+implementation 'com.android.support:multidex:1.0.3'
+
+
+Terminal : command
+flutter build apk --release --aot
+
+
+
+
+
+
+Push Notification multiple device :
+api : https://fcm.googleapis.com/fcm/send
+
+Headers:
+
+Content-Type: application/json
+Authorization: key=AAAAZwxs5EQ:APA91bEkPc4OQtDQy4b8eCprfnkW4LizeOEQfMnPvfQOWCJqBY_JBUsg3chy7HBaGaiV4w8r3twCYn9kepYOA-8MTrfsioZAY5DIKn5WdliiBjyFzH7uzrtnl-rnMkWjz3AI7_nPltNZ
+
+body:
+
+{
+ "to":"dCFsv7KOROK1tPNTQd_kKO:APA91bFimUmYM6zGp-liZb6QOF4DjWbWCesqe3ORpN-0a5djQH6HQlweYLloLfDrkhe0YGsrklkl7KTNwOrLGkItC679HE0CK7c-bmxTFBNsLzjwF73UAv1eNdVob0nW-XnJuplBCVIR",
+ "notification" : {
+     "body" : "New iCRM test",
+     "title": "Go to notification"
+ }
+}
+
+
+
+
+
+
+
+
+18/12/2023
+1.Local Database and online data save to database
+2. Notification 
+3. Firebase store data in database
+
+
+in sha allah
+
+
+
+
+
+
+
+
+1. java api call and appe  show kora
+
+2. Api te kivabe data pathabo                                                 
+
+
+                 Company name: 
+                   
+                 1. Career choice it
+                 2. Software Builder/Creator It
+                 3. Expert Software It/ Ltd
+                 4. Software Cereator It
+
+
+
+DATE : 27/06/2023    Time : Everyday minimum Three*(03) hour practices In sha allah 
+ 
+1. Fiverr a gig make 
+2. Remote job er CV make (Linkin profile + Turing +  Indeed + Oter website)
+3. Niger project a kaj kora + ADS mediation 
+4. Flutte er oter work like (Gried view , List View , On Tab ,Animeted Navegation Buttom, Animated Navegation drower , )
+5. SQL database
+6. Firebase 
+
+fiverr account setup      
+       
+CRM app problem SOlVING
+
+admob + facebook mediation 
+ 
+create facebook business account
+facebook page create
+busniess name > Software Development
+page name> App Buider
+
+udemy cupon appling
+
+                    App List 7/18/2023
+
+
+1. Child Education app
+2. Education app
+3. Job seeker app
+4. social app
+5. travellin app
+6. uber app
+7 .Delivary app
+8. Medical $ medicin type app
+9. E- commers app
+10. CRM app
+11  Booking type app(hotel)
+12 .Quran app
+13. Helth & Fitness app
+14. ERP software app
+15. Earning app
+16. Newpepar
+17.Hrm app (Atendence app) 
+8/20/2023
+
+17.Depretion app
+
+
+
+        Date : 8/6/2023
+
+ 1.    Facebook page create 
+ 2.    Checkbox Reseling kore income (youtube)
+ 3.    Wordpress website dekha like (E-commerce)
+
+
+
+1  setion theke kivabe data dekhte hoi
+2. app er call list history te ki ki data ace oita mehedi vai k dile uni akta api dibe then oita show korate hobe
+
+            Date : 8/27/2023
+
+1.    Flutte app Tutorial make
+2.  free bloggerr website making implements google ads
+3.  facebook marketplace sellig products
+
+           Date : 8/28/2023
+
+          Software company 
+
+
+Starting a software company requires careful planning, a clear vision, and a step-by-step approach. Here's a general guide to help you get started:
+
+1. Define Your Vision and Goals:
+
+Clearly define your company's mission, vision, and goals. What type of software will you develop? Who is your target audience? What problems will your software solve?
+2. Research and Market Analysis:
+
+Conduct thorough market research to understand the demand for your software and potential competitors.
+Identify your target market and assess their needs and preferences.
+3. Develop a Business Plan:
+
+Create a comprehensive business plan outlining your company's structure, goals, target market, revenue model, marketing strategy, and financial projections.
+Consider factors like funding sources, pricing strategy, and sales channels.
+4. Choose Your Niche and Services:
+
+Determine the specific software products or services you'll offer. Will you develop custom software, mobile apps, web applications, or something else?
+Focus on a niche that aligns with your expertise and market demand.
+5. Legal and Administrative Setup:
+
+Choose a business name and register it with the appropriate government authorities.
+Decide on your business structure (e.g., sole proprietorship, LLC, corporation) and register accordingly.
+Obtain any necessary licenses and permits.
+6. Build a Team:
+
+Hire skilled developers, designers, project managers, and other necessary roles.
+Create a culture that encourages innovation, collaboration, and continuous learning.
+7. Develop a Prototype:
+
+Create a prototype or minimum viable product (MVP) to showcase your software's core features and functionality.
+Test the prototype with potential users to gather feedback and make improvements.
+8. Funding:
+
+Determine how you will fund your software company. Options include personal savings, angel investors, venture capital, loans, or bootstrapping.
+9. Software Development:
+
+Develop the software product(s) based on your prototype and user feedback.
+Prioritize user experience, functionality, and security in your development process.
+10. Quality Assurance and Testing:
+
+Conduct rigorous testing to identify and fix bugs, glitches, and usability issues.
+Ensure your software performs well across different devices, platforms, and browsers.
+11. Intellectual Property Protection:
+
+If applicable, consider patenting or copyrighting your software to protect your intellectual property.
+12. Marketing and Branding:
+
+Develop a strong brand identity, including a logo, website, and marketing materials.
+Create a marketing strategy that includes online presence, content creation, social media, and targeted outreach.
+13. Launch:
+
+Launch your software product with a well-planned marketing campaign.
+Collect user feedback during the launch phase to make any necessary improvements.
+14. Customer Support:
+
+Provide excellent customer support to address user inquiries, issues, and feedback.
+15. Scaling and Growth:
+
+As your software gains traction, focus on scaling your operations, expanding your customer base, and improving your software's features.
+Remember, starting a software company is a journey that requires dedication, adaptability, and a willingness to learn and evolve. Be prepared to face challenges and setbacks along the way, but with careful planning and determination, you can build a successful software company that delivers value to your customers and contributes to the technology landscape.
+
+
+
+
+
+                                                   Flutter Course 2023
+	               
+
+                                          
+                                     		
+		                      Flutter Apps Development  Course (Ontline -2023)
+
+                                         Course Introduction
+                                        *Installing Flutter on Windows
+
+
+  					Lesson 1 (1st day): 
+                                        Introduction with Dart programming language, Flutter and Motivation
+
+				       # Basic Dart Language
+
+                                        *Dart Data Types
+                                        *Dart Operators
+                                        *String Concatenation
+                                        *Boolean
+                                        *List
+                                        *Map
+                                        *Final Vs Const
+                                        *Functions
+                                        *Enumeration
+
+                                        Programming contest 01 
+
+                                       Lesson 2 (2nd day):
+
+                                      # Basic Dart Language
+
+                                       *If Statement
+                                       *Else-If Statement
+                                       *Switch Case
+                                       *For Loop
+                                       *For in Loop
+                                       *While Loop
+                                       *Do while Loop
+
+                                       Programming contest 02
+
+                                      Lesson 3 (3rd day): (অব্জেক্ট ওরিয়েন্টেড প্রোগ্রামিং - OOP)
+       
+                                      #Object Oriented Programming Introduction
+
+                                      *Static Keyword
+                                      *Class
+                                      *Class Constructor
+                                      *Constructor Properties
+                                      *Inheritance
+                                      *Abstract Class
+                                      *Abstract Method
+                                      *Method Overriding
+
+                                       Programming contest 03
+
+
+                                        *** Flutter ***
+
+
+                                      Lesson 4 (4th day):
+
+                                     *Introduction to Flutter
+                                     *Creating a new Flutter Project
+                                     *Stateless vs Stateful 
+                                     *Scaffold
+                                     *AppBar & PreferredSize
+                                     *Text,Button
+                                     *Icons and SizeBox,Safearea Widget
+                                     *Network Image,
+                                     *Asset Image
+
+                                     Lesson 5 (5th day):
+
+                                     *Row & colum
+                                     *Margin & Padding
+                                     *Packages
+                                     *Time & Date Picker
+                                     *Buttom Navigation Bar & Tab Bar
+                                     *Aleart Dialog 
+                                     *Refresh Indicator
+                                     *SingleChild ScrollView
+                                         
+                                     Lesson 6 (6th day):
+
+                                     *Checkbox,Switch,Radio Button,Toggole Button
+                                     *Navigation & Route
+                                     *ListView
+                                     *ListView Buider
+                                     *ListTile
+                                     *Circular Progress,
+
+                                     >>>> Project <<<<
+
+                                     Lesson 7 (7th day):
+
+                                     *GriedView
+                                     *pageView
+                                     *InkWell & Gesture Detector
+                                     *Navigation Drawer
+                                     *Dropdown button & Dropdown menu item
+
+                                     >>>> Project <<<<
+
+                                     Lesson 8 (8th day):
+
+                                     *Image picker,Video Picker,Capture image
+                                     *Audio Player
+                                     *Video Player
+                                     
+                                     >>>> Project <<<<
+
+                                     Lesson 9 (9th day):   
+
+                                    *User Input & From Validations
+                                    *Theme
+                                    *Google fonts & Custom fonts
+                                    *Shimmer effect
+                                    *Table & Data Table
+
+                                   
+                                    Lesson 10 (10th day):
+
+                                    *SharedPreference
+                                    *Animation 
+
+                                    Lesson 10 (11th - 12th day):
+
+                                    Local Database (SQF lite Database)
+
+                                     >>>> Project <<<<
+
+
+                                    Lesson 10 (13,14,15th day):
+
+                                    *Rest Api Integrations
+                                    *Introduction of API integration & HTTP Request Handling
+                                    *GET Method
+                                    *POST Method
+                                    *PUT Method
+                                    *DELETE Method
+                                     API integration Demo project using Demo API
+
+                                    Lesson 11 (16th day):
+
+                                    *Responsive Design
+                                    *Flutter WebView
+
+                                    Lesson 12 (17th day):
+
+                                    *Introduction to StateManagement
+                                    *SetState
+                                    *Provider
+
+                                    Lesson 13 (18th day):
+
+                                    *GetX(Buttom Sheet)
+
+                                    Lesson 14 (19th day):
+
+                                    *Introduction Firebase
+                                    *Adding Firebase to Android
+                                    *Email & Password Aunthentication
+                                    *Google SignIn
+                                    *Phone Auth
+                                   
+                                    Lesson 15 (20,21th day):
+                                    
+                                    *Introduction to Firebase Database
+                                    *Firebase Database Full Crud Operation & Firebase Storage
+                                    *Push Notification to Firebase
+                 
+                                    *If Is this possible to show Payment Gateway
+
+                                    Lesson 16 (22,23,24th day):
+
+                                    Industrial Standard Project  [E-Commerce] (Part 1) 
+                                    Industrial Standard Project  [E-Commerce] (Part 2) 
+                                    Industrial Standard Project  [E-Commerce] (Part 3) 
+                                    Industrial Standard Project  [E-Commerce] (Part 4) 
+                                    Industrial Standard Project  [E-Commerce] (Part 5) 
+
+
+                                      >>>  Publish App in play store & app store  <<<
+
+
+
+                              
+
+                                                  26/10/2023
+Interview Preparation:
+ 
+1. Dart Language (oop),  Map in flutter 
+2. Flutter Fremwork (widget, Provider & Getx , SharePrefarence , SQL  DataBase , FireBase , State Management system , Rest APIs)
+3. Git and Github  difference
+
+
+
